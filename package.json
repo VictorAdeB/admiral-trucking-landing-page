@@ -1,8 +1,8 @@
 {
-  "homepage": "github.com/VictorAdeB/admiral-trucking-landing-page",
   "name": "admiral-trucker-landing-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://VictorAdeB.github.io/admiral-trucking-landing-page",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
