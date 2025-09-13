@@ -75,7 +75,7 @@ body {
   color: var(--black);
   background-color: white;
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Utility Classes */
@@ -355,7 +355,8 @@ nav a:hover {
   background-image: url('../src/Asset/pexels-photo-by-jonathan-cooper.png');
   background-size: cover;
   background-position: center;
-  margin: 0 !important;
+  /* margin: 0 !important;
+  width: 100% !important; */
 }
 
 .hero-overlay {
@@ -386,6 +387,7 @@ nav a:hover {
   box-shadow: var(--light-red);
   position: relative;
   z-index: 10;
+  width: 100%;
 }
 
 .headercontent {
@@ -567,8 +569,8 @@ nav a:hover {
 }
 #contact {
   /* width: 100% !important; */
-  margin: 0 !important;
-  padding: 0 !important;
+  /* margin: 0 !important; */
+  /* padding: 0 !important; */
 }
 
 /* Responsive Design */
