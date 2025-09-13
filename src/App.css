@@ -352,7 +352,7 @@ body {
 /* Button Styles */
 .btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 12px 24px !important;
   border-radius: 20px;
   border: none;
   text-decoration: none;
@@ -360,6 +360,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: inherit;
+  width: auto;
 }
 
 .btn-primary {
