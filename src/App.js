@@ -345,7 +345,7 @@ function App() {
                     <h3 className="heading-6-bold mb-4">Contact Us</h3>
                     <ul className='footernav marginauto' style={{listStyle: "none", padding: "0"}}>
                         <li style={{marginBottom: "1rem"}}><a href="tel:+2347000009098" className="heading-7 text-white">+234-7000009098</a></li>
-                        <li style={{marginBottom: "1rem"}}><a href="mailto:info@admiraltrucker.net" className="heading-7 text-white">info@admiraltrucker.net</a></li>
+                        <li style={{marginBottom: "1rem", whiteSpace: "wrap"}}><a href="mailto:info@admiraltrucker.net" className="heading-7 text-white">info@admiraltrucker.net</a></li>
                         <li style={{marginBottom: "1rem"}}><span className="heading-7 text-white">77th James Street, Lagos State.</span></li>
                         <li style={{marginBottom: "1rem"}}><a href="" className="heading-7 text-white">admiraltrucker.net</a></li>
                     </ul>
