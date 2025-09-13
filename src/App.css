@@ -214,6 +214,8 @@ body {
   display: flex;
   list-style: none;
   gap: 1.5rem;
+  width: unset !important;
+    padding: 10px;
 }
 
 .nav-links li a {
@@ -221,6 +223,7 @@ body {
   font-weight: 500;
   color: var(--brand);
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-links li a:hover {
@@ -236,7 +239,7 @@ body {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
-  padding-right: 20px;
+  padding-right: 1px;
 }
 
 .hamburger span {
@@ -437,7 +440,7 @@ nav a:hover {
   width: 100vw !important;
 
   /* padding: 0 2rem; */
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .logo {
