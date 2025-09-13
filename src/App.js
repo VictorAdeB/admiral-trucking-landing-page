@@ -27,7 +27,7 @@ function App() {
     {/* <!-- Hero Banner Section --> */}
     <section className="herosection">
         {/* <!-- Navigation Header --> */}
-        <header style={{width: "100%", maxWidth: "100%"}} className="siteheader">
+        <header style={{width: "100%"}} className="siteheader">
             <div className="headercontent">
                 {/* <!-- Logo --> */}
                 <img className="logo" alt="Admiral Trucker Logo" src={mainLogo} />
@@ -62,7 +62,7 @@ function App() {
         </header>
         
         {/* <!-- Hero Overlay --> */}
-        <div style={{width: "100%", maxWidth: "100%"}} className="hero-overlay"></div>
+        <div style={{width: "100%"}} className="hero-overlay"></div>
         
         {/* <!-- Hero Content --> */}
         <div className={`hero-content ${isOpen ? "heroactivemobile" : ""}`}> 
