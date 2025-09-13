@@ -22,12 +22,23 @@ function App() {
         return new Date().getFullYear();
       }
 
+      useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth > 768) {
+            setIsOpen(false);
+          }
+        };
+    
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+
   return (
    <body>
     {/* <!-- Hero Banner Section --> */}
     <section className="herosection">
         {/* <!-- Navigation Header --> */}
-        <header style={{width: "100%"}} className="siteheader">
+        <header className="siteheader">
             <div className="headercontent">
                 {/* <!-- Logo --> */}
                 <img className="logo" alt="Admiral Trucker Logo" src={mainLogo} />
@@ -42,11 +53,17 @@ function App() {
         <li><a href="#contact" className="heading-7 brand-color">Contact Us</a></li>
       </ul>
 
-      {/* Hamburger Icon */}
+     
+            </div>
+
+             {/* Hamburger Icon */}
+             {/* <div > */}
+      <div className="harmcont">
       <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
         <span className="top"></span>
         <span className="middle"></span>
         <span className="bottom"></span>
+      </div>
       </div>
 
       {/* Mobile Navigation */}
@@ -58,7 +75,9 @@ function App() {
         <li><a href="#career" onClick={toggleMenu}>Career</a></li> */}
         <li><a href="#contact" onClick={toggleMenu}>Contact Us</a></li>
       </ul>
-            </div>
+      {/* </div> */}
+
+      
         </header>
         
         {/* <!-- Hero Overlay --> */}
@@ -237,7 +256,7 @@ function App() {
                 {/* <!-- News Item 1 --> */}
                 <div style={{backgroundColor: "black", borderRadius: "20px", overflow: "hidden"}}>
                     <div style={{position: "relative"}}>
-                        <img src={newsImg} alt="News image" style={{width: "100%", height: "395px", objectFit: "cover"}} />
+                        <img src={newsImg} alt="News image" style={{width: "100%", maxWidth: "100%", height: "395px", objectFit: "cover"}} />
                         <div className="sub-1-med" style={{position: "absolute", bottom: "1rem", left: "38px", backgroundColor:"white", color: "black", borderRadius: "10px", padding: "0.5rem"}}>
                             January 10, 2009
                         </div>
@@ -272,7 +291,7 @@ function App() {
                 {/* <!-- News Item 2 --> */}
                 <div style={{backgroundColor: "black", borderRadius: "20px", overflow: "hidden"}}>
                     <div style={{position: "relative"}}>
-                        <img src={newsImage} alt="News image" style={{width: "100%", height: "395px", objectFit: "cover"}} />
+                        <img src={newsImage} alt="News image" style={{width: "100%", maxWidth: "100%", height: "395px", objectFit: "cover"}} />
                         <div className="sub-1-med" style={{position: "absolute", bottom: "1rem", left: "38px", backgroundColor: "white", color: "black", borderRadius: "10px", padding: "0.5rem"}}>
                             January 25, 2009
                         </div>
@@ -308,7 +327,7 @@ function App() {
     </section>
     
     {/* <!-- Contact Us Section --> */}
-    <footer id="contact" style={{width: "100%", maxWidth: "100%"}} className="section bg-brand text-white">
+    <footer id="contact" style={{width: "100%"}} className="section bg-brand text-white">
         <div className="container">
             <div className="grid grid-cols-4 gap-8">
                 {/* <!-- Logo column --> */}
@@ -319,7 +338,7 @@ function App() {
                 {/* <!-- Company links column --> */}
                 <div >
                     <h3 className="heading-6-bold mb-4">Company</h3>
-                    <ul className='footernav marginauto' style={{listStyle: "none", padding: "0"}}>
+                    <ul className='footernav' style={{listStyle: "none", padding: "0"}}>
                         <li style={{marginBottom: "1rem"}}><a href="#" className="heading-7 text-white">Home</a></li>
                         <li style={{marginBottom: "1rem"}}><a href="#about" className="heading-7 text-white">About</a></li>
                         <li style={{marginBottom: "1rem"}}><a href="#services" className="heading-7 text-white">Services</a></li>
