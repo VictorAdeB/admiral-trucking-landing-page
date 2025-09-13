@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/admiral-trucking-landing-page/static/css/main.744e9142.css",
+    "main.css": "/admiral-trucking-landing-page/static/css/main.d4aa7df1.css",
     "main.js": "/admiral-trucking-landing-page/static/js/main.e508b642.js",
     "static/js/453.a36741bd.chunk.js": "/admiral-trucking-landing-page/static/js/453.a36741bd.chunk.js",
     "static/media/rectangle-17.svg": "/admiral-trucking-landing-page/static/media/rectangle-17.ac4e8fbd6f71f929fc1f152c0fb41121.svg",
@@ -14,12 +14,12 @@
     "index.html": "/admiral-trucking-landing-page/index.html",
     "static/media/vector.svg": "/admiral-trucking-landing-page/static/media/vector.5a27c5100f8a238a3c4f.svg",
     "static/media/vector-1.svg": "/admiral-trucking-landing-page/static/media/vector-1.43c12cbabf35b8b6bb5da392d92e873a.svg",
-    "main.744e9142.css.map": "/admiral-trucking-landing-page/static/css/main.744e9142.css.map",
+    "main.d4aa7df1.css.map": "/admiral-trucking-landing-page/static/css/main.d4aa7df1.css.map",
     "main.e508b642.js.map": "/admiral-trucking-landing-page/static/js/main.e508b642.js.map",
     "453.a36741bd.chunk.js.map": "/admiral-trucking-landing-page/static/js/453.a36741bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.744e9142.css",
+    "static/css/main.d4aa7df1.css",
     "static/js/main.e508b642.js"
   ]
 }
