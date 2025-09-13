@@ -582,9 +582,9 @@ nav a:hover {
       display: none !important;
   }
   .img-resize {
-      width: 50% !important;
+      width: 60% !important;
       margin: 0 auto !important;
-      height: 300px !important;
+      height: 400px !important;
   }
 }
 
@@ -596,9 +596,9 @@ nav a:hover {
     display: none !important;
 } 
 .img-resize {
-  width: 30% !important;
+  width: 80% !important;
   margin: 0 auto !important;
-  height: 150px !important;
+  height: 330px !important;
 }
   .heading-3-bold {
       font-size: 36px;
