@@ -215,10 +215,10 @@ function App() {
         <div className="container text-center">
             <h2 className="section-title heading-3-bold brand-color">Our Destinations</h2>
             
-            <div className="destinations-bg mx-auto mb-16" style={{width: "750px", height: "610px", maxWidth: "100%", position: "relative"}}>
+            <div className="destinations-bg mx-auto mb-16 img-resize" style={{width: "750px", height: "610px", maxWidth: "100%", position: "relative"}}>
                 <div style={{position: "relative", width: "503px", height: "501px", top: "59px", margin: "0 auto"}}>
-                    <img src={NigeriaMap} alt="Vector map of Nigeria" style={{position: "absolute", width: "482px", height: "483px", top: "13px", left: "10px"}} />
-                    <img src={Delivery} alt="Delivery locations across Nigeria" style={{position: "absolute", width: "503px", height: "501px", top: 0, left: 0}} />
+                    <img src={NigeriaMap} className="hidden-img" alt="Vector map of Nigeria" style={{position: "absolute", width: "482px", height: "483px", top: "13px", left: "10px"}} />
+                    <img src={Delivery} className="hidden-img" alt="Delivery locations across Nigeria" style={{position: "absolute", width: "503px", height: "501px", top: 0, left: 0}} />
                 </div>
             </div>
             
@@ -317,9 +317,9 @@ function App() {
                 </div>
                 
                 {/* <!-- Company links column --> */}
-                <div>
+                <div >
                     <h3 className="heading-6-bold mb-4">Company</h3>
-                    <ul className='footernav' style={{listStyle: "none", padding: "0"}}>
+                    <ul className='footernav marginauto' style={{listStyle: "none", padding: "0"}}>
                         <li style={{marginBottom: "1rem"}}><a href="#" className="heading-7 text-white">Home</a></li>
                         <li style={{marginBottom: "1rem"}}><a href="#about" className="heading-7 text-white">About</a></li>
                         <li style={{marginBottom: "1rem"}}><a href="#services" className="heading-7 text-white">Services</a></li>
@@ -343,7 +343,7 @@ function App() {
                 {/* <!-- Contact information column --> */}
                 <div>
                     <h3 className="heading-6-bold mb-4">Contact Us</h3>
-                    <ul className='footernav' style={{listStyle: "none", padding: "0"}}>
+                    <ul className='footernav marginauto' style={{listStyle: "none", padding: "0"}}>
                         <li style={{marginBottom: "1rem"}}><a href="tel:+2347000009098" className="heading-7 text-white">+234-7000009098</a></li>
                         <li style={{marginBottom: "1rem"}}><a href="mailto:info@admiraltrucker.net" className="heading-7 text-white">info@admiraltrucker.net</a></li>
                         <li style={{marginBottom: "1rem"}}><span className="heading-7 text-white">77th James Street, Lagos State.</span></li>

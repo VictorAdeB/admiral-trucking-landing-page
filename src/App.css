@@ -66,6 +66,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -577,13 +578,28 @@ nav a:hover {
   .header-content {
       padding: 0 1rem;
   }
+  .hidden-img {
+      display: none !important;
+  }
+  .img-resize {
+      width: 50% !important;
+      margin: 0 auto !important;
+      height: 300px !important;
+  }
 }
 
 @media (max-width: 768px) {
   .heading-1-bold {
       font-size: 48px;
   }
-  
+  .hidden-img {
+    display: none !important;
+} 
+.img-resize {
+  width: 30% !important;
+  margin: 0 auto !important;
+  height: 150px !important;
+}
   .heading-3-bold {
       font-size: 36px;
   }
@@ -611,6 +627,9 @@ nav a:hover {
   
   .section {
       padding: 2rem 0;
+  }
+  .marginauto{
+    margin: auto !important;
   }
 }
 
